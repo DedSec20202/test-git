@@ -1,0 +1,79 @@
+.list_of_active_applications {
+
+    background-color: $main-bg-color;
+
+    * {
+
+        font-family: $font-family_1;
+        color: $white-color-text;
+
+    }
+
+    .header {
+
+        padding-left: 56px;
+        padding-right: 32px;
+
+        .header_nav {
+
+            .header_nav_list {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+
+                .header_nav_list_item{
+
+                    .logo {
+
+                        max-width: 64px;
+                        width: 100%;
+
+                    }
+
+                    .nav_btn {
+
+                        ul {
+
+                            display: flex;
+                            font-size: 20px;
+                            column-gap: 32px;
+                            
+                            li {
+
+                                padding: 13px 20px;
+                                background-color: $background-color-btn;
+
+                            }
+
+                        }
+
+                    }
+
+                    .account {
+
+                        display: flex;
+                        align-items: center;
+                        column-gap: 16px;
+
+                    }
+
+                    .exit_acoount {
+
+                        padding: 13px 24px;
+                        background-color: $background-color-btn;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    border-bottom: 5px solid $background-color-btn;
+
+}
